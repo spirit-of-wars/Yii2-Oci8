@@ -1,5 +1,5 @@
 {
-  "name": "neconix/yii2-oci8",
+  "name": "sibvaleo/yii2-oci8",
   "description": "Yii2 extension which uses well written pdo-via-oci8 package for standard PHP Oracle functions (OCI8)",
   "type": "library",
   "keywords": ["yii2", "oracle", "oci8", "database"],
