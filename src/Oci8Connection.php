@@ -20,8 +20,10 @@ use PDOException;
  */
 class Oci8Connection extends Connection
 {
-    public $pdoClass = 'Yajra\Pdo\Oci8';
+//    public $pdoClass = 'Yajra\Pdo\Oci8';
+    public $pdoClass = 'neconix\yii2oci8\Pdo';
 
+    public $commandClass = 'neconix\yii2oci8\Command';
     /**
      * @var string Class name for oci schemaMap
      */
