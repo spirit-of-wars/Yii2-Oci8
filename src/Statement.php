@@ -150,7 +150,6 @@ class Statement extends PDOStatement
 
     public function setCursor($cursorName)
     {
-        die();
         $this->cursorName = $cursorName;
         $this->cursor = $this->fetchStatement = $this->connection->getNewCursor();
 
